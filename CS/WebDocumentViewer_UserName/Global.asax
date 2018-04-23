@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="WebDocumentViewer_UserName.MvcApplication" Language="C#" %>
