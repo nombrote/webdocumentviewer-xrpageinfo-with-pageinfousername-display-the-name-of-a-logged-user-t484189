@@ -2,8 +2,6 @@
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Web
-Imports System.Web.Mvc
-Imports System.Web.Routing
 
 Namespace WebDocumentViewer_UserName
     Public Class RouteConfig
@@ -11,7 +9,11 @@ Namespace WebDocumentViewer_UserName
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}")
             routes.IgnoreRoute("{resource}.ashx/{*pathInfo}")
 
-            routes.MapRoute(name:= "Default", url:= "{controller}/{action}/{id}", defaults:= New With {Key .controller = "Home", Key .action = "Index", Key .id = UrlParameter.Optional}) ' Parameter defaults -  URL with parameters -  Route name
+            routes.MapRoute(name:= "Default", url:= "{controller}/{action}/{id}", defaults:= New With { _
+                Key .controller = "Home", _
+                Key .action = "Index", _
+                Key .id = UrlParameter.Optional _
+            })
         End Sub
     End Class
 End Namespace

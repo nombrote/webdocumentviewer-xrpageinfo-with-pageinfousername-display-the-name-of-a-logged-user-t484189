@@ -2,7 +2,6 @@
 Imports System.Drawing
 Imports System.Collections
 Imports System.ComponentModel
-Imports DevExpress.XtraReports.UI
 
 Namespace WebDocumentViewer_UserName.Reports
     Partial Public Class XtraReport1

@@ -28,7 +28,7 @@
             Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
             Me.xrLabel1 = New DevExpress.XtraReports.UI.XRLabel()
             Me.xrPageInfo1 = New DevExpress.XtraReports.UI.XRPageInfo()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' Detail
             ' 
@@ -97,7 +97,7 @@
             Me.PageWidth = 717
             Me.PaperKind = System.Drawing.Printing.PaperKind.B6Jis
             Me.Version = "16.2"
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
         End Sub
 

@@ -1,7 +1,6 @@
 ﻿Imports System
 Imports System.Web
 Imports DevExpress.XtraPrinting
-Imports DevExpress.XtraReports.UI
 Imports DevExpress.XtraReports.Web.WebDocumentViewer
 
 Namespace WebDocumentViewer_UserName.Services
