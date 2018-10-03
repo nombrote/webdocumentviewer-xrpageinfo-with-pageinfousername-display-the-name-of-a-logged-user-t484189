@@ -1,0 +1,2 @@
+Hi, it has not got any reference to document viewer, only a grid and a query builder, not document viewer!
+Bad name
